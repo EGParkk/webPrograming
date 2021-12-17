@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'JSongMyung-Regular-KO';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/JSongMyung-Regular-KO.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* 전체 태그에 적용 */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'JSongMyung-Regular-KO', cursive;
+  /* font-family: 'Roboto', sans-serif; */
+  display: flex; /* 하위 태그들을 정렬 */
+  flex-direction: column; /* 전체 세로 정렬 */
+  justify-content: center; /* 가로 방향 정렬 */
+  align-items: center; /* 세로 방향 정렬 */
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
