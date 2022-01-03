@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'JSongMyung-Regular-KO';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/JSongMyung-Regular-KO.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* 전체 태그에 적용 */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', cursive;
+  display: flex; /* 하위 태그들을 정렬 */
+  justify-content: center; /* 가로 방향 정렬 */
+  align-items: center; /* 세로 방향 정렬 */
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.bg {
+  background: url('https://cdn.pixabay.com/photo/2021/10/07/15/12/wine-6688901_960_720.jpg')
+    no-repeat center center/cover;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  filter: blur(0px);
+  position: absolute; /* 위로 뜬 상태, 기준이 없을 경우 화면이 기준이된다.*/
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.loading-text {
+  color: white;
+  font-size: 50px;
+}
